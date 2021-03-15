@@ -1,0 +1,17 @@
+{
+  "name": "ecs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "docker build -t pandajiny/aws-deploy-test .",
+    "deploy": "docker push pandajiny/aws-deploy-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
